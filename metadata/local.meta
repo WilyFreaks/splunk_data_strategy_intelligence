@@ -1,0 +1,421 @@
+[app/install/install_source_checksum]
+data = 266aea7a5d696c93c3d1bd6f69d113ea83c785b6
+
+[lookups/dsi_stats_index_sourcetype.csv]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 10.6.0.5
+modtime = 1791253472.199766000
+
+[macros/dsi_extract_referenced_indexes%281%29]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791613410.011939000
+
+[macros/dsi_extract_referenced_sourcetypes%281%29]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791613430.833476000
+
+[savedsearches/dsi_test_referenced_indexes]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791614085.167893000
+
+[savedsearches/dsi_test_referenced_sourcetypes]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791614119.686772000
+
+[savedsearches/dsi_stats_by_index_sourcetype]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = tmurata@splunk.com
+version = 9.4.2
+modtime = 1791662172.432800000
+
+[savedsearches/dsi_stats_by_savedsearch]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = tmurata@splunk.com
+version = 9.4.2
+modtime = 1791662278.480157000
+
+[macros/dsi_set_period_for_stats_by_index_sourcetype]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.6.0.5
+modtime = 1791362644.035627000
+
+[savedsearches/dsi_test_referenced_eventtypes]
+export = none
+owner = tmurata@splunk.com
+version = 10.6.0.5
+modtime = 1791365573.541352000
+
+[macros/dsi_extract_referenced_eventtypes%281%29]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791639283.232801000
+
+[macros/dsi_extract_referenced_datamodels%281%29]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791613471.217588000
+
+[savedsearches/dsi_test_referenced_datamodels]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791614199.061762000
+
+[macros/dsi_extract_referenced_macros%281%29]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791613498.750424000
+
+[savedsearches/dsi_test_referenced_macros]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791614243.326134000
+
+[macros/dsi_test_referenced_index_macro_1]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.560982000
+
+[macros/dsi_test_referenced_index_macro_2]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.576772000
+
+[macros/dsi_test_referenced_index_macro_3]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.592334000
+
+[macros/dsi_test_referenced_index_macro_4]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.608093000
+
+[macros/dsi_test_referenced_index_macro_5]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.623378000
+
+[macros/dsi_test_referenced_index_macro_6]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.639145000
+
+[macros/dsi_test_referenced_index_macro_7]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.654844000
+
+[macros/dsi_test_referenced_index_macro_8]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791531039.670273000
+
+[macros/dsi_resolve_referenced_object_macros%281%29]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791637824.596904000
+
+[macros/dsi_test_referenced_sourcetype_macro_1]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605416.616597000
+
+[macros/dsi_test_referenced_sourcetype_macro_2]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605428.548005000
+
+[macros/dsi_test_referenced_sourcetype_macro_3]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605440.552999000
+
+[macros/dsi_test_referenced_sourcetype_macro_4]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605452.261086000
+
+[macros/dsi_test_referenced_sourcetype_macro_5]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605466.330585000
+
+[macros/dsi_test_referenced_sourcetype_macro_6]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605466.346823000
+
+[macros/dsi_test_referenced_sourcetype_macro_7]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605478.314959000
+
+[macros/dsi_test_referenced_sourcetype_macro_8]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605490.086206000
+
+[macros/dsi_test_referenced_eventtype_macro_1]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605748.599262000
+
+[macros/dsi_test_referenced_eventtype_macro_2]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605760.187648000
+
+[macros/dsi_test_referenced_eventtype_macro_3]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605772.215593000
+
+[macros/dsi_test_referenced_eventtype_macro_4]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605783.726983000
+
+[macros/dsi_test_referenced_eventtype_macro_5]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605795.354629000
+
+[macros/dsi_test_referenced_eventtype_macro_6]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605807.324561000
+
+[macros/dsi_test_referenced_eventtype_macro_7]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605821.295279000
+
+[macros/dsi_test_referenced_eventtype_macro_8]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791605821.311465000
+
+[macros/dsi_test_referenced_datamodel_macro_1]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606014.621625000
+
+[macros/dsi_test_referenced_datamodel_macro_2]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606033.202275000
+
+[macros/dsi_test_referenced_datamodel_macro_3]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606047.009558000
+
+[macros/dsi_test_referenced_datamodel_macro_4]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606047.030892000
+
+[macros/dsi_test_referenced_datamodel_macro_5]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606058.915833000
+
+[macros/dsi_test_referenced_datamodel_macro_6]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606077.483337000
+
+[macros/dsi_test_referenced_datamodel_macro_7]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606077.500024000
+
+[macros/dsi_test_referenced_datamodel_macro_8]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791606096.247599000
+
+[savedsearches/dsi_test_resolve_referenced_object_macros]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791640146.019404000
+
+[macros/dsi_expand_reference%282%29]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791652035.976962000
+
+[macros/dsi_resolve_referenced_indexes_and_sourcetypes_by_eventtype]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791640997.990970000
+
+[eventtypes/dsi_test_referenced_eventtype]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791641581.278263000
+
+[savedsearches/dsi_test_resolve_referenced_indexes_and_sourcetypes_by_eventtype]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791641829.479452000
+
+[macros/dsi_resolve_referenced_indexes_and_sourcetypes_by_datamodel]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791642541.738971000
+
+[datamodels/dsi_test_referenced_datamodel]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791643383.605992000
+
+[models/dsi_test_referenced_datamodel]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791643383.607931000
+
+[savedsearches/dsi_test_%20resolve_referenced_indexes_and_sourcetypes_by_datamodel]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791643432.362123000
+
+[macros/dsi_resolve_referenced_indexes_and_sourcetypes_by_macro]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791643789.692449000
+
+[savedsearches/dsi_test_%20resolve_referenced_indexes_and_sourcetypes_by_macro]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791644141.002831000
+
+[macros/dsi_set_period_for_stats_by_audit_search]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791656255.696111000
+
+[macros/dsi_test_referenced_macro]
+access = read : [  ], write : [  ]
+export = none
+owner = tmurata@splunk.com
+version = 10.7.0.1
+modtime = 1791645436.766449000
+
+[savedsearches/dsi_stats_by_audit_search]
+export = none
+owner = tmurata@splunk.com
+version = 9.4.2
+modtime = 1791662362.916525000
+
