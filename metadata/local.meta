@@ -19,8 +19,8 @@ modtime = 1791613410.011939000
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
-version = 10.7.0.1
-modtime = 1791613430.833476000
+version = 9.4.2
+modtime = 1793002721.057024000
 
 [savedsearches/dsi_test_referenced_indexes]
 access = read : [ * ], write : [ admin, power ]
@@ -48,7 +48,7 @@ access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
 version = 9.4.2
-modtime = 1791662278.480157000
+modtime = 1792999947.262317000
 
 [macros/dsi_set_period_for_stats_by_index_sourcetype]
 access = read : [ * ], write : [ admin, power ]
@@ -417,5 +417,17 @@ modtime = 1791645436.766449000
 export = none
 owner = tmurata@splunk.com
 version = 9.4.2
-modtime = 1792118557.189381000
+modtime = 1792999887.645156000
+
+[macros/dsi_extract_commands%281%29]
+export = none
+owner = admin
+version = 9.4.2
+modtime = 1793001444.632118000
+
+[savedsearches/dsi_test_extrace_commands]
+export = none
+owner = admin
+version = 9.4.2
+modtime = 1793001693.588797000
 
