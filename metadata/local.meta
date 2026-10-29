@@ -425,7 +425,7 @@ owner = admin
 version = 9.4.2
 modtime = 1793001444.632118000
 
-[savedsearches/dsi_test_extrace_commands]
+[savedsearches/dsi_test_extract_commands]
 export = none
 owner = admin
 version = 9.4.2
