@@ -12,15 +12,15 @@ modtime = 1791253472.199766000
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
-version = 10.7.0.1
-modtime = 1791613410.011939000
+version = 9.4.2
+modtime = 1794935963.063777000
 
 [macros/dsi_extract_referenced_sourcetypes%281%29]
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
 version = 9.4.2
-modtime = 1793002721.057024000
+modtime = 1794936205.129702000
 
 [savedsearches/dsi_test_referenced_indexes]
 access = read : [ * ], write : [ admin, power ]
@@ -41,14 +41,14 @@ access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
 version = 9.4.2
-modtime = 1791662172.432800000
+modtime = 1794936672.477577000
 
 [savedsearches/dsi_stats_by_savedsearch]
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
 version = 9.4.2
-modtime = 1792999947.262317000
+modtime = 1794937047.275867000
 
 [macros/dsi_set_period_for_stats_by_index_sourcetype]
 access = read : [ * ], write : [ admin, power ]
@@ -60,22 +60,22 @@ modtime = 1791362644.035627000
 [savedsearches/dsi_test_referenced_eventtypes]
 export = none
 owner = tmurata@splunk.com
-version = 10.6.0.5
-modtime = 1791365573.541352000
+version = 9.4.2
+modtime = 1794936852.817239000
 
 [macros/dsi_extract_referenced_eventtypes%281%29]
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
-version = 10.7.0.1
-modtime = 1791639283.232801000
+version = 9.4.2
+modtime = 1794936274.191145000
 
 [macros/dsi_extract_referenced_datamodels%281%29]
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
-version = 10.7.0.1
-modtime = 1791613471.217588000
+version = 9.4.2
+modtime = 1794936333.403306000
 
 [savedsearches/dsi_test_referenced_datamodels]
 export = none
@@ -87,8 +87,8 @@ modtime = 1791614199.061762000
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
-version = 10.7.0.1
-modtime = 1791613498.750424000
+version = 9.4.2
+modtime = 1794936406.950624000
 
 [savedsearches/dsi_test_referenced_macros]
 export = none
@@ -403,8 +403,8 @@ modtime = 1791644141.002831000
 access = read : [ * ], write : [ admin, power ]
 export = none
 owner = tmurata@splunk.com
-version = 10.7.0.1
-modtime = 1791656255.696111000
+version = 9.4.2
+modtime = 1794935656.627231000
 
 [macros/dsi_test_referenced_macro]
 access = read : [ * ], write : [ admin, power ]
@@ -430,4 +430,32 @@ export = none
 owner = admin
 version = 9.4.2
 modtime = 1793001693.588797000
+
+[macros/dsi_iev_licensed_weight]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 9.4.2
+modtime = 1794937794.274965000
+
+[macros/dsi_zip_search_pattern%281%29]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 9.4.2
+modtime = 1794938012.044933000
+
+[macros/dsi_unzip_search_pattern%281%29]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 9.4.2
+modtime = 1794938003.557894000
+
+[macros/dsi_set_period_for_stats_by_audit_search_conservative]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 9.4.2
+modtime = 1794937856.380674000
 
